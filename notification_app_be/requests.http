@@ -1,0 +1,28 @@
+
+POST http://20.207.122.201/evaluation-service/auth
+Content-Type: application/json
+
+{
+  "email": "RA23110300200l4@college.edu",
+  "name": "Your Name",
+  "rollNo": "RA23110300200l4",
+  "accessCode": "your_access_code",
+  "clientID": "your_client_id",
+  "clientSecret": "your_client_secret"
+}
+
+### Fetch Notifications
+GET http://20.207.122.201/evaluation-service/notifications
+Authorization: Bearer YOUR_ACCESS_TOKEN_HERE
+
+### Log Message
+POST http://20.207.122.201/evaluation-service/logs
+Content-Type: application/json
+Authorization: Bearer YOUR_ACCESS_TOKEN_HERE
+
+{
+  "stack": "backend",
+  "level": "info",
+  "package": "test",
+  "message": "Testing logging"
+}

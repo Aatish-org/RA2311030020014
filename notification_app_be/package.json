@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test:stage1": "npx ts-node src/test.js",
+    "test:stage1:with-token": "ACCESS_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJhcDA1ODlAc3JtaXN0LmVkdS5pbiIsImV4cCI6MTc3NzcwMjEyNywiaWF0IjoxNzc3NzAxMjI3LCJpc3MiOiJBZmZvcmQgTWVkaWNhbCBUZWNobm9sb2dpZXMgUHJpdmF0ZSBMaW1pdGVkIiwianRpIjoiOTMwMDUwNDQtZTg4OS00MzYzLWI0MTQtNTM1NGQ3MGFhY2E5IiwibG9jYWxlIjoiZW4tSU4iLCJuYW1lIjoiYWF0aXNoIHAiLCJzdWIiOiJmOTExZjIzYy1jZTc2LTQyY2YtOTFhOS00NGRiMDI2ZjExYTIifSwiZW1haWwiOiJhcDA1ODlAc3JtaXN0LmVkdS5pbiIsIm5hbWUiOiJhYXRpc2ggcCIsInJvbGxObyI6InJhMjMxMTAzMDAyMDAxNCIsImFjY2Vzc0NvZGUiOiJRa2JweEgiLCJjbGllbnRJRCI6ImY5MTFmMjNjLWNlNzYtNDJjZi05MWE5LTQ0ZGIwMjZmMTFhMiIsImNsaWVudFNlY3JldCI6IlNxTUhzS3h0dG1XRWRDd0IifQ.3Ovj_TvJrG49RQGsz6iQ_a-YWuodtZnvYzjeYSn6Leo npx ts-node src/test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
